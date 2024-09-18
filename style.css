@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.nav-links a{
+    margin: 30px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+
+
+}
+.section1{
+    margin-top: 50px;
+}
+.btn{
+    width: 130px;
+    border-radius: 1%;
+}
+
+.section2{
+    margin-top: 50px;
+}
+.nums{
+    display: flex;
+    justify-content: space-between;
+   list-style: none;
+   margin-top: 200px;
+}
+img{
+    max-width: 600px;
+    position:relative;
+    
+}
+.section3{
+    margin-top: 200px;
+
+}
+
+.section3ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin-top: 20px;
+
+}
+.section3ul li p{
+    margin-left: 33px;
+}
+
+.plus1{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.section4{
+   margin-top:50px;
+   
+}
+.section5{
+    margin-top:100px;
+    
+ }
+ 
+
+
+ .section5ul {
+    list-style: none;
+    margin-top: 50px;
+ }
+.section5ul i{
+    background-color: rgb(9, 9, 9);
+    color: azure;
+    border-radius: 100%;
+}
+.section5ul p{
+    margin-left: 95px;
+}
+
+.section6{
+    margin-top: 80px;
+}
+
+.image{
+    max-height: 500px;
+    max-width: 500px;
+  
+}
+.center{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+
+.absolute{
+    max-height: 500px;
+    max-width: 400px;
+    background-color: rgb(55, 55, 55);
+    color: white;
+    padding: 20px;
+    padding-bottom: 100px;
+    line-height:30px ;
+    position: absolute;
+    bottom:0px;
+    left: 150px;
+    outline: solid 10px white;
+
+}
+.absolute2{
+    bottom:0px;
+    left: 580px;
+
+}
+.subsecribe{
+    text-align: center;
+}
+
+
+footer{
+    background-color: rgb(43, 43, 43);
+    color: beige;
+    padding: 80px;
+    margin-top: 80px;
+    padding-top: 100px;
+    position: relative;
+
+}
+
+.input-group{
+    max-width: 700px;
+    outline: 10px solid white;
+    position: absolute;
+    top: 0;
+    left: 400px;
+   
+
+}
+
+.footerul{
+    list-style: none;
+    line-height: 30px;
+
+
+}
+.social i{
+    margin-left: 20px;
+}
+
